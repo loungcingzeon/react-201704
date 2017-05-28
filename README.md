@@ -37,7 +37,7 @@
         03.Create repository  点击 创建库
 
         04.克隆项目地址下来
-            $ git clone https://github.com/Rococolate/react-201703.git  这里要克隆项目的路径
+            $ git clone https://github.com/loungcingzeon/react-201704.git  这里要克隆项目的路径
 
 
     3-下载:http://git-scm.com/downloads
@@ -56,21 +56,15 @@
           $ git --help                                    查看帮助文件，和如何使用
 
           // git 本地基本配置信息，
-              $ git config --golbal user.name "liangchengjin"            配置全局用户名
-              $ git config --golbal user.email "liangchengjin@chengjin.com"  配置全局用的邮箱  
+              $ git config --golbal user.name "loungcingzeon"            配置全局用户名     loungcingzeon这是自己的用户名
+              $ git config --golbal user.email "loungcingzeon@sina.com"  配置全局用的邮箱   loungcingzeon这是自己的邮箱名
 
-          $ mkdir git-demos                               创建一个文件夹
-          $ git clone xxx@git.com                         要克隆的地址
-          $ git init                                      初始化一下 .git 的文件  
-          $ ls   
-          $ ls -al                                        查看文件列表
-          $ git status                                    查看状态
-          $ cd ../
-          $ pwd                                           查看当前目录
-          $ cd .git/                                      查看.git下面的目录文件
-          $ touch index.html                              创建一个文件
-          $ git add index.html                            把文件添加到暂存区
-          $ git commit -m"描述"                           添加提交文件的说明
-          $ git push origin master                        把文件提交到远程仓库上面去
+          $ mkdir git-demos                               		创建一个文件夹
+          $ git https://github.com/loungcingzeon/react-201704.git                         要克隆的地址        
+          $ git status                                    		查看状态      
+          $ git add -A                            		        把全部文件添加到暂存区
+   	  $ git status                                    		查看状态    
+          $ git commit -m"描述"                           		添加提交文件的说明
+          $ git push origin master                        		把文件提交到远程仓库上面去
 
           接下来就是要要求你输入你的用户名和密码, 最后就提交成功
